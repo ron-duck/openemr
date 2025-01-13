@@ -591,3 +591,4 @@ if (config.install) {
 } else {
     exports.default = gulp.series(clean, ingest, styles, sync);
 }
+exports.default = null;
